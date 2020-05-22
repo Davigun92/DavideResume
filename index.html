@@ -819,42 +819,21 @@
 
         <div class="row contact__main">
             <div class="col-eight tab-full contact__form">
-
-<form
-  action="https://formspree.io/davide.giagnacovo@gmail.com"
-  method="POST"
->
-  <label>
-    Your Name:
-    <input type="text" name="name">
-  </label>
-  <label>
-    Your Email:
-    <input type="email" name="_replyto">
-  </label>
-  <label>
-    Message:
-    <textarea name="message"></textarea>
-  </label>
-  <input type="submit" value="Send">
-</form>
-
-                <form name="contactForm" id="contactForm" action="https://formspree.io/davide.giagnacovo@gmail.com" method="POST">
+                <form name="contactForm" id="contactForm" method="post" action="">
                     <fieldset>
     
                     <div class="form-field">
-                        <input name="name" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+                        <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="" aria-required="true" class="full-width">
                     </div>
                     <div class="form-field">
-                        <input name="_replyto" type="email" id="contactEmail" placeholder="Email" value="" required="" aria-required="true" class="full-width">
+                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="" aria-required="true" class="full-width">
                     </div>
                     <div class="form-field">
-                        <input name="subject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
                     </div>
                     <div class="form-field">
-                        <textarea name="message" id="contactMessage" placeholder="message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                        <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
                     </div>
-                    <input type="submit" value="Send">
                     <div class="form-field">
                         <button class="full-width btn--primary">Submit</button>
                         <div class="submit-loader">
@@ -866,9 +845,9 @@
                             </div>
                         </div>
                     </div>
+    
                     </fieldset>
                 </form>
-
 
                 <!-- contact-warning -->
                 <div class="message-warning">
@@ -901,27 +880,6 @@
         </div>
 
     </section> <!-- end s-contact -->
-
-
-    <form
-  action="https://formspree.io/davide.giagnacovo@gmail.com"
-  method="POST"
->
-  <label>
-    Your Name:
-    <input type="text" name="name">
-  </label>
-  <label>
-    Your Email:
-    <input type="email" name="_replyto">
-  </label>
-  <label>
-    Message:
-    <textarea name="message"></textarea>
-  </label>
-  <input type="submit" value="Send">
-</form>
-
 
 
     <!-- footer
@@ -957,7 +915,7 @@
             <div class="col-twelve">
                 <div class="copyright">
                     <span>Copyright 2020 | All Rights Reserved  -- <style>.heart{color: #862121;}</style>
-					Made with <span class="heart">❤</span> by Me </span>
+                    Made with <span class="heart">❤</span> by Me </span>
 
                 </div>
 
@@ -1020,7 +978,6 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-
 
 </body>
 
