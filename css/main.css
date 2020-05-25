@@ -787,8 +787,8 @@ input[type="button"] {
     white-space: nowrap;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #862121;
-    border: .3rem solid #862121;
+    background-color: #c5c5c5;
+    border: .3rem solid #c5c5c5;
 }
 
 .btn:hover, 
