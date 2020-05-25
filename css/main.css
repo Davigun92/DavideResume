@@ -3179,6 +3179,17 @@ html.no-csstransitions .home-content__main {
     border-color: #862121;
 }
 
+/* ==aperto modifiche pulsante== */
+
+.contact__form input {
+    margin-top: 4.2rem;
+    background-color: #862121;
+    border-color: #862121;
+    color: #ffffff;
+}
+
+/* ==chiuso modifiche pulsante== */
+
 .message-warning, .message-success {
     display: none;
     background: #0D0A0B;
